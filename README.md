@@ -9,7 +9,7 @@ Este é um projeto que utiliza **Docker**, **migrations** e **Go** para gerencia
 Certifique-se de ter o Docker instalado e rodando em sua máquina. Depois, execute o seguinte comando para subir os serviços:
 
 ```bash
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 ## Portas das Aplicações
